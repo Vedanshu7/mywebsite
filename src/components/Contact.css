@@ -1,0 +1,61 @@
+.contact-container {
+  margin-top: 50px;
+}
+
+.contact-container .contact-form {
+  max-width: 600px;
+  margin: auto;
+  width: 90%;
+}
+.contact-container .contact-form input,
+.contact-container .contact-form textarea {
+  border: none;
+  width: 100%;
+  margin-top: 15px;
+  background-color: var(--secondary-background-color);
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 30px -15px;
+  border-radius: 5px;
+}
+.contact-container .contact-form input::placeholder,
+.contact-container .contact-form textarea::placeholder {
+  opacity: 0.4;
+}
+
+.contact-container .contact-form input {
+  /* height: 40px; */
+}
+.contact-container .contact-form textarea {
+  height: 120px;
+}
+.contact-container .contact-form .button {
+  text-align: center;
+}
+.contact-container .contact-form button {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 20px;
+}
+
+.send-button span {
+  color: white !important;
+}
+
+.ant-message-custom-content.ant-message-success path {
+  color: #52c41a !important;
+}
+.ant-message-custom-content.ant-message-error path {
+  color: #ff4d4f !important;
+}
+.ant-message-custom-content span {
+  color: black !important;
+}
+.ant-btn[disabled] {
+  background: #999999 !important;
+}
+
+.email-container {
+  background-color: var(--secondary-background-color);
+  padding: 15px;
+  border-radius: 5px;
+}

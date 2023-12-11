@@ -1,0 +1,62 @@
+footer{
+  padding-bottom: 25px;
+}
+.footer-container {
+  /* border-top: 1px solid  var(--primary-font-color); */
+  margin-top: 40px;
+}
+.footer-container hr {
+  border: none;
+  height: 1px;
+  background-color: var(--primary-font-color);
+  opacity: 0.2;
+}
+.footer-container .icon-container {
+  text-align: center;
+  margin: 30px;
+}
+.footer-container .icon-container .icon {
+  font-size: 35px;
+  margin: 10px;
+  opacity: 0.8;
+}
+.footer-container .icon-container .icon:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+.footer-text {
+  opacity: 0.8;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+.footer-text a{
+  color: var(--primary-font-color) ;
+
+}
+.footer-text a:hover{
+  cursor: pointer;
+  opacity: 1;
+  color: var(--primary-font-color) ;
+
+}
+.footer-text .footer-icon{
+  display: inline-block;
+  vertical-align: text-top; 
+}
+.footer-text {
+  /* margin-bottom: 30px; */
+}
+.footer-text:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.footer-text .gatsby-icon:hover path {
+  /* color: rgb(23, 40, 114) !important; */
+}
+
+@media only screen and (max-width: 950px) {
+
+}
