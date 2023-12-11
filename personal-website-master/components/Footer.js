@@ -1,6 +1,6 @@
 import styles from '../styles/Footer.module.scss'
 import { Center, Divider, ActionIcon } from '@mantine/core'
-import nextjsSvg from '../public/technology-icon/nextjs2.svg'
+import nextjsSvg from './technology-icon/nextjs2.svg'
 import { Link, BrandGithub } from 'tabler-icons-react'
 
 function Footer() {
