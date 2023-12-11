@@ -28,8 +28,8 @@
     "tabler-icons-react": "^1.47.0"
   },
   "devDependencies": {
-    "eslint": "8.14.0",
-    "eslint-config-next": "^12.1.5",
+    "eslint": "^8.55.0",
+    "eslint-config-next": "^14.0.4",
     "sass": "^1.51.0"
   }
 }
